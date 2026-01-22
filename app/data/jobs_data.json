@@ -1,0 +1,1346 @@
+[
+  {
+    "job_title": "Data Scientist",
+    "city": "Sydney",
+    "country": "Australia",
+    "skills": [
+      "SQL",
+      "AWS",
+      "Node.js",
+      "React"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "QA Engineer",
+    "city": "Berlin",
+    "country": "Germany",
+    "skills": [
+      "C++",
+      "Python",
+      "SQL",
+      "Go"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "Tokyo",
+    "country": "Singapore",
+    "skills": [
+      "C++",
+      "TypeScript",
+      "Git",
+      "Java"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Frontend Developer",
+    "city": "London",
+    "country": "Australia",
+    "skills": [
+      "Kubernetes",
+      "C++",
+      "Java",
+      "Git"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "New York",
+    "country": "Australia",
+    "skills": [
+      "AWS",
+      "Git",
+      "Swift",
+      "Python"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "city": "Berlin",
+    "country": "Australia",
+    "skills": [
+      "React",
+      "Java",
+      "Go",
+      "Swift"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Frontend Developer",
+    "city": "Singapore",
+    "country": "Singapore",
+    "skills": [
+      "Docker",
+      "TypeScript",
+      "React",
+      "Git"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "Paris",
+    "country": "Japan",
+    "skills": [
+      "TypeScript",
+      "Java",
+      "Docker",
+      "Swift"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "city": "Munich",
+    "country": "UK",
+    "skills": [
+      "React",
+      "Go",
+      "Java",
+      "Docker"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "city": "Sydney",
+    "country": "France",
+    "skills": [
+      "Swift",
+      "Docker",
+      "Git",
+      "AWS"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "QA Engineer",
+    "city": "Sydney",
+    "country": "France",
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "Go",
+      "Java"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "Paris",
+    "country": "Japan",
+    "skills": [
+      "C++",
+      "Kubernetes",
+      "Java",
+      "Node.js"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Mobile Developer",
+    "city": "Paris",
+    "country": "Singapore",
+    "skills": [
+      "Go",
+      "Swift",
+      "SQL",
+      "Python"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "Munich",
+    "country": "Germany",
+    "skills": [
+      "AWS",
+      "Go",
+      "React",
+      "Git"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "city": "Amsterdam",
+    "country": "Germany",
+    "skills": [
+      "Docker",
+      "C++",
+      "Node.js",
+      "AWS"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "city": "Singapore",
+    "country": "Netherlands",
+    "skills": [
+      "AWS",
+      "Swift",
+      "Docker",
+      "C++"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "London",
+    "country": "USA",
+    "skills": [
+      "TypeScript",
+      "SQL",
+      "Java",
+      "Node.js"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Berlin",
+    "country": "Singapore",
+    "skills": [
+      "Node.js",
+      "Swift",
+      "AWS",
+      "C++"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "New York",
+    "country": "Australia",
+    "skills": [
+      "Git",
+      "Swift",
+      "Kubernetes",
+      "Node.js"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "Amsterdam",
+    "country": "Japan",
+    "skills": [
+      "SQL",
+      "React",
+      "AWS",
+      "Node.js"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "Munich",
+    "country": "UK",
+    "skills": [
+      "SQL",
+      "Docker",
+      "Java",
+      "Go"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "QA Engineer",
+    "city": "Sydney",
+    "country": "Australia",
+    "skills": [
+      "TypeScript",
+      "AWS",
+      "Kubernetes",
+      "Docker"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Frontend Developer",
+    "city": "Sydney",
+    "country": "Germany",
+    "skills": [
+      "TypeScript",
+      "React",
+      "SQL",
+      "AWS"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "Tokyo",
+    "country": "Germany",
+    "skills": [
+      "AWS",
+      "Kubernetes",
+      "Node.js",
+      "Docker"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Data Scientist",
+    "city": "Tokyo",
+    "country": "France",
+    "skills": [
+      "TypeScript",
+      "Go",
+      "Node.js",
+      "C++"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Mobile Developer",
+    "city": "London",
+    "country": "Singapore",
+    "skills": [
+      "Docker",
+      "Java",
+      "Python",
+      "React"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "Paris",
+    "country": "France",
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "React"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Mobile Developer",
+    "city": "Munich",
+    "country": "Germany",
+    "skills": [
+      "React",
+      "Kubernetes",
+      "Go",
+      "Git"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "San Francisco",
+    "country": "Germany",
+    "skills": [
+      "C++",
+      "Docker",
+      "Node.js",
+      "Git"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Berlin",
+    "country": "France",
+    "skills": [
+      "Node.js",
+      "Kubernetes",
+      "SQL",
+      "Docker"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "London",
+    "country": "Netherlands",
+    "skills": [
+      "Node.js",
+      "Kubernetes",
+      "Python",
+      "Docker"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "Berlin",
+    "country": "Japan",
+    "skills": [
+      "SQL",
+      "Kubernetes",
+      "Node.js",
+      "Java"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "QA Engineer",
+    "city": "Munich",
+    "country": "Germany",
+    "skills": [
+      "Python",
+      "Go",
+      "Node.js",
+      "React"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "Munich",
+    "country": "Singapore",
+    "skills": [
+      "Swift",
+      "Java",
+      "Kubernetes",
+      "C++"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Data Scientist",
+    "city": "Tokyo",
+    "country": "Japan",
+    "skills": [
+      "Kubernetes",
+      "SQL",
+      "Python",
+      "React"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Frontend Developer",
+    "city": "London",
+    "country": "USA",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Java"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Data Scientist",
+    "city": "Sydney",
+    "country": "Singapore",
+    "skills": [
+      "Docker",
+      "Swift",
+      "Node.js",
+      "Java"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "city": "Tokyo",
+    "country": "USA",
+    "skills": [
+      "TypeScript",
+      "Python",
+      "Node.js",
+      "Go"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "city": "San Francisco",
+    "country": "Japan",
+    "skills": [
+      "Node.js",
+      "Java",
+      "AWS",
+      "C++"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "city": "Munich",
+    "country": "Singapore",
+    "skills": [
+      "React",
+      "SQL",
+      "Java",
+      "TypeScript"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Sydney",
+    "country": "Singapore",
+    "skills": [
+      "Kubernetes",
+      "Java",
+      "Docker",
+      "Go"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "Singapore",
+    "country": "Netherlands",
+    "skills": [
+      "C++",
+      "Docker",
+      "Git",
+      "Python"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "QA Engineer",
+    "city": "Munich",
+    "country": "Netherlands",
+    "skills": [
+      "Python",
+      "Kubernetes",
+      "AWS",
+      "React"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Mobile Developer",
+    "city": "San Francisco",
+    "country": "Germany",
+    "skills": [
+      "Python",
+      "AWS",
+      "C++",
+      "Docker"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Frontend Developer",
+    "city": "Paris",
+    "country": "UK",
+    "skills": [
+      "Swift",
+      "Node.js",
+      "Docker",
+      "React"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Mobile Developer",
+    "city": "New York",
+    "country": "France",
+    "skills": [
+      "Kubernetes",
+      "AWS",
+      "React",
+      "Python"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Data Scientist",
+    "city": "Singapore",
+    "country": "UK",
+    "skills": [
+      "AWS",
+      "C++",
+      "Swift",
+      "Python"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "Singapore",
+    "country": "Japan",
+    "skills": [
+      "Git",
+      "Python",
+      "Go",
+      "Docker"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Data Scientist",
+    "city": "San Francisco",
+    "country": "France",
+    "skills": [
+      "Git",
+      "Python",
+      "SQL",
+      "React"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Mobile Developer",
+    "city": "London",
+    "country": "USA",
+    "skills": [
+      "Swift",
+      "Java",
+      "React",
+      "Go"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "city": "Munich",
+    "country": "USA",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "AWS",
+      "SQL"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Data Scientist",
+    "city": "Munich",
+    "country": "Netherlands",
+    "skills": [
+      "Go",
+      "Java",
+      "Node.js",
+      "Swift"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "QA Engineer",
+    "city": "London",
+    "country": "Australia",
+    "skills": [
+      "TypeScript",
+      "C++",
+      "Python",
+      "SQL"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Mobile Developer",
+    "city": "Munich",
+    "country": "Germany",
+    "skills": [
+      "Kubernetes",
+      "Python",
+      "TypeScript",
+      "SQL"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Data Scientist",
+    "city": "Tokyo",
+    "country": "Australia",
+    "skills": [
+      "Go",
+      "Python",
+      "Kubernetes",
+      "Docker"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "city": "Sydney",
+    "country": "France",
+    "skills": [
+      "Docker",
+      "Go",
+      "Git",
+      "AWS"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Tokyo",
+    "country": "USA",
+    "skills": [
+      "Python",
+      "Node.js",
+      "Kubernetes",
+      "Swift"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Sydney",
+    "country": "UK",
+    "skills": [
+      "SQL",
+      "Git",
+      "Node.js",
+      "Swift"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "New York",
+    "country": "UK",
+    "skills": [
+      "Kubernetes",
+      "React",
+      "Python",
+      "Swift"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "Sydney",
+    "country": "France",
+    "skills": [
+      "Swift",
+      "React",
+      "Kubernetes",
+      "Go"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Berlin",
+    "country": "UK",
+    "skills": [
+      "C++",
+      "Git",
+      "TypeScript",
+      "Kubernetes"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Mobile Developer",
+    "city": "Munich",
+    "country": "UK",
+    "skills": [
+      "TypeScript",
+      "Docker",
+      "Go",
+      "SQL"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Data Scientist",
+    "city": "Singapore",
+    "country": "USA",
+    "skills": [
+      "SQL",
+      "AWS",
+      "TypeScript",
+      "Swift"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "Sydney",
+    "country": "France",
+    "skills": [
+      "Node.js",
+      "Java",
+      "Go",
+      "React"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "city": "Tokyo",
+    "country": "USA",
+    "skills": [
+      "Swift",
+      "Node.js",
+      "SQL",
+      "TypeScript"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Frontend Developer",
+    "city": "London",
+    "country": "France",
+    "skills": [
+      "Python",
+      "Go",
+      "AWS",
+      "Swift"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Amsterdam",
+    "country": "UK",
+    "skills": [
+      "Python",
+      "Node.js",
+      "Go",
+      "TypeScript"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Data Scientist",
+    "city": "Tokyo",
+    "country": "UK",
+    "skills": [
+      "C++",
+      "Node.js",
+      "AWS",
+      "Docker"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Berlin",
+    "country": "Japan",
+    "skills": [
+      "React",
+      "C++",
+      "Kubernetes",
+      "Docker"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Frontend Developer",
+    "city": "Paris",
+    "country": "Japan",
+    "skills": [
+      "AWS",
+      "TypeScript",
+      "Go",
+      "Kubernetes"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "San Francisco",
+    "country": "Netherlands",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Python",
+      "Git"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Frontend Developer",
+    "city": "Singapore",
+    "country": "UK",
+    "skills": [
+      "Go",
+      "AWS",
+      "SQL",
+      "TypeScript"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "QA Engineer",
+    "city": "Tokyo",
+    "country": "Australia",
+    "skills": [
+      "React",
+      "Python",
+      "Docker",
+      "C++"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "city": "Sydney",
+    "country": "Germany",
+    "skills": [
+      "Kubernetes",
+      "Python",
+      "AWS",
+      "C++"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "London",
+    "country": "Netherlands",
+    "skills": [
+      "Node.js",
+      "React",
+      "TypeScript",
+      "Kubernetes"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "Singapore",
+    "country": "Netherlands",
+    "skills": [
+      "Git",
+      "Swift",
+      "SQL",
+      "Python"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "QA Engineer",
+    "city": "Munich",
+    "country": "France",
+    "skills": [
+      "Go",
+      "Node.js",
+      "Python",
+      "Kubernetes"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "San Francisco",
+    "country": "Japan",
+    "skills": [
+      "Node.js",
+      "SQL",
+      "Python",
+      "Swift"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "city": "Munich",
+    "country": "France",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "AWS",
+      "C++"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "San Francisco",
+    "country": "Japan",
+    "skills": [
+      "AWS",
+      "Swift",
+      "TypeScript",
+      "Git"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Frontend Developer",
+    "city": "Sydney",
+    "country": "Singapore",
+    "skills": [
+      "Git",
+      "Python",
+      "Go",
+      "Kubernetes"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Data Scientist",
+    "city": "Paris",
+    "country": "Netherlands",
+    "skills": [
+      "Docker",
+      "Go",
+      "React",
+      "Python"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "QA Engineer",
+    "city": "Munich",
+    "country": "Netherlands",
+    "skills": [
+      "Git",
+      "Docker",
+      "Java",
+      "Node.js"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "Sydney",
+    "country": "Japan",
+    "skills": [
+      "Kubernetes",
+      "React",
+      "TypeScript",
+      "AWS"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "London",
+    "country": "France",
+    "skills": [
+      "Python",
+      "Kubernetes",
+      "Git",
+      "C++"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "city": "London",
+    "country": "Australia",
+    "skills": [
+      "Python",
+      "Kubernetes",
+      "Java",
+      "Git"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Amsterdam",
+    "country": "Germany",
+    "skills": [
+      "AWS",
+      "React",
+      "SQL",
+      "TypeScript"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Sydney",
+    "country": "Japan",
+    "skills": [
+      "Java",
+      "Swift",
+      "SQL",
+      "Node.js"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Munich",
+    "country": "Netherlands",
+    "skills": [
+      "Docker",
+      "Go",
+      "React",
+      "Node.js"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Data Scientist",
+    "city": "New York",
+    "country": "Japan",
+    "skills": [
+      "Go",
+      "React",
+      "SQL",
+      "Python"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Frontend Developer",
+    "city": "Berlin",
+    "country": "Japan",
+    "skills": [
+      "Java",
+      "Python",
+      "C++",
+      "Kubernetes"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "city": "Amsterdam",
+    "country": "Singapore",
+    "skills": [
+      "React",
+      "AWS",
+      "Go",
+      "C++"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Berlin",
+    "country": "UK",
+    "skills": [
+      "Kubernetes",
+      "Java",
+      "Python",
+      "Docker"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "Tokyo",
+    "country": "Singapore",
+    "skills": [
+      "Swift",
+      "React",
+      "C++",
+      "TypeScript"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "QA Engineer",
+    "city": "Amsterdam",
+    "country": "France",
+    "skills": [
+      "Kubernetes",
+      "Docker",
+      "Swift",
+      "Git"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "Singapore",
+    "country": "France",
+    "skills": [
+      "React",
+      "C++",
+      "Go",
+      "Git"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "San Francisco",
+    "country": "UK",
+    "skills": [
+      "Java",
+      "AWS",
+      "Docker",
+      "Swift"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Frontend Developer",
+    "city": "Munich",
+    "country": "France",
+    "skills": [
+      "React",
+      "Docker",
+      "AWS",
+      "Node.js"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Mobile Developer",
+    "city": "Munich",
+    "country": "Netherlands",
+    "skills": [
+      "Node.js",
+      "Docker",
+      "C++",
+      "Java"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Amsterdam",
+    "country": "UK",
+    "skills": [
+      "C++",
+      "AWS",
+      "Docker",
+      "React"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "Tokyo",
+    "country": "UK",
+    "skills": [
+      "Python",
+      "AWS",
+      "Swift",
+      "Docker"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "city": "Paris",
+    "country": "Japan",
+    "skills": [
+      "Kubernetes",
+      "Java",
+      "Python",
+      "AWS"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "city": "Berlin",
+    "country": "UK",
+    "skills": [
+      "Kubernetes",
+      "TypeScript",
+      "C++",
+      "Swift"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "San Francisco",
+    "country": "USA",
+    "skills": [
+      "SQL",
+      "Swift",
+      "Docker",
+      "Java"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "city": "London",
+    "country": "Japan",
+    "skills": [
+      "SQL",
+      "AWS",
+      "TypeScript",
+      "Java"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Data Scientist",
+    "city": "Singapore",
+    "country": "Germany",
+    "skills": [
+      "Go",
+      "C++",
+      "Java",
+      "Kubernetes"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Frontend Developer",
+    "city": "Tokyo",
+    "country": "France",
+    "skills": [
+      "Python",
+      "Swift",
+      "Go",
+      "Java"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Mobile Developer",
+    "city": "Paris",
+    "country": "USA",
+    "skills": [
+      "Python",
+      "C++",
+      "Node.js",
+      "React"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "Backend Developer",
+    "city": "Paris",
+    "country": "USA",
+    "skills": [
+      "React",
+      "SQL",
+      "TypeScript",
+      "Swift"
+    ],
+    "experience_level": "Mid"
+  },
+  {
+    "job_title": "Cloud Architect",
+    "city": "Munich",
+    "country": "Netherlands",
+    "skills": [
+      "Python",
+      "SQL",
+      "Node.js",
+      "Swift"
+    ],
+    "experience_level": "Senior"
+  },
+  {
+    "job_title": "Security Analyst",
+    "city": "Sydney",
+    "country": "Singapore",
+    "skills": [
+      "Swift",
+      "Go",
+      "Kubernetes",
+      "TypeScript"
+    ],
+    "experience_level": "Entry"
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "city": "Munich",
+    "country": "Australia",
+    "skills": [
+      "Kubernetes",
+      "Git",
+      "Java",
+      "AWS"
+    ],
+    "experience_level": "Mid"
+  }
+]
