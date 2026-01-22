@@ -5,7 +5,7 @@ import random
 titles = ["Backend Developer", "Frontend Developer", "Fullstack Developer", "Data Scientist", "DevOps Engineer", "QA Engineer", "Mobile Developer", "Cloud Architect", "Security Analyst"]
 cities = ["Berlin", "Munich", "London", "Paris", "New York", "San Francisco", "Tokyo", "Singapore", "Amsterdam", "Sydney"]
 countries = ["Germany", "UK", "France", "USA", "Japan", "Singapore", "Netherlands", "Australia"]
-levels = ["Entry", "Mid", "Senior"]
+experience_level = ["Entry", "Mid", "Senior"]
 skill_pool = ["Java", "Python", "React", "SQL", "Docker", "Git", "Kubernetes", "AWS", "TypeScript", "Node.js", "C++", "Go", "Swift"]
 
 data = []
@@ -17,9 +17,10 @@ for i in range(112):
         "city": random.choice(cities),
         "country": random.choice(countries),
         "skills": random.sample(skill_pool, 4),
-        "experience_level": random.choice(levels)
+        "experience_level": random.choice(experience_level)
     })
 
 # This part saves the file to your computer automatically
 with open('jobs_data.json', 'w') as f:
     json.dump(data, f, indent=2)
+
