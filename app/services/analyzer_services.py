@@ -1,3 +1,4 @@
+from app.core.exceptions import AppError
 from app.core.logger import logger
 import json
 
@@ -12,7 +13,9 @@ class JobDataService:
             with open(self.data_path, "r", encoding="utf-8") as f:
                 return json.load(f)
         except FileNotFoundError:
-            return ValueError("file not found")
+            raise AppError("Data source is missing", status_code=404)
+        except json.JSONDecodeError:
+            raise AppError('Data source is corrupted', status_code=404)
 
     def filter_jobs(self, job_title: str, country: str):
 
@@ -24,6 +27,9 @@ class JobDataService:
                 and job["country"].strip().lower() == country.strip().lower()
             ):
                 filtered_jobs.append(job)
+        if not filtered_jobs:
+            raise AppError(
+                f"No results found for '{job_title}' in '{country}'", status_code=404)
 
         return filtered_jobs
 
@@ -45,21 +51,18 @@ class JobDataService:
                 else:
                     print(
                         f"Warning: skipped invalid skill type: {type(skill)}")
+                    # item[1]=> count  this mean sorted by count not names
         sorted_skills = sorted(
             skill_counter.items(),
             key=lambda item: item[1],
             reverse=True
-        )  # item[1]=> count  this mean sorted by count not names
+        )
 
-        top_skills = []
-        nice_to_have = []
+        # Slice from the start until index 5 & unpack (s,c) to create a list of dictionaries
+        top_skills = [{"name": s, "count": c} for s, c in sorted_skills[:5]]
+        # Slice from index 5 until the very end & unpack (s,_) and take only 's' because we don't need count (_)
+        nice_to_have = [s for s, _ in sorted_skills[5:]]
 
-        for index, (skill, count) in enumerate(sorted_skills):
-            if index < 5:
-                top_skills.append({"name" : skill,"count":count})
-            else:
-                nice_to_have.append(skill)
-                
         first_skill = top_skills[0]['name'] if top_skills else "python"
         advice_text = f"Focus on {first_skill} to increase your chances in this market"
         return {
@@ -76,4 +79,4 @@ def analyze_job(job_title: str, country: str):
 
     if country.lower() != "germany":
         logger.warning(f"Unsupported country requested: {country}")
-        raise ValueError("Currently only Germany is supported")
+        raise AppError("Currently only Germany is supported", status_code=404)

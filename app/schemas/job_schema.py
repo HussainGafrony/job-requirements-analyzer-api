@@ -2,21 +2,6 @@ from typing import List, ClassVar
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 
-class Skill(BaseModel):
-    name: str
-    count: int
-
-
-class JobResponse(BaseModel):
-    job_title: str
-    country: str
-    skills: List[Skill]
-    nice_to_have: List[str]
-    cities: List[str]
-    experience_level: str
-    advice: str
-
-
 class JobRequest(BaseModel):
     job_title: str = Field(..., min_length=5,
                            max_length=50, str_strip_whitespace=True)
@@ -43,6 +28,20 @@ class JobRequest(BaseModel):
             raise ValueError(
                 "Country must contain only alphabetic characters.")
         return value
+
+class Skill(BaseModel):
+    name: str
+    count: int
+
+
+class JobResponse(BaseModel):
+    job_title: str
+    country: str
+    skills: List[Skill]
+    nice_to_have: List[str]
+    cities: List[str]
+    experience_level: str
+    advice: str
 
 
 # Block unknown fields

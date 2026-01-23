@@ -1,9 +1,30 @@
 from fastapi import FastAPI, Request
+from fastapi.responses import JSONResponse
 from app.api.v1.jobs_api import router as jobs_router
+from app.core.exceptions import AppError
 from app.core.logger import logger
 from app.services.analyzer_services import *
 
 app = FastAPI(title="Job Requirements Analyzer API")
+
+
+@app.exception_handler(AppError)
+async def global_exception_handler(request: Request, exc: AppError):
+
+    error_details = {
+        "success": False,
+        "error_info": {
+            "message": exc.message,
+            "status": exc.status_code,
+            "path": str(request.url),
+            "method": request.method,
+            "client": request.client.host
+        }
+
+    }
+
+    return JSONResponse(status_code=exc.status_code, content=error_details)
+
 
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
