@@ -1,7 +1,8 @@
 from app.core.exceptions import AppError
-from app.core.logger import logger
+from app.core.logger import get_logger, logger
 import json
 
+logger = get_logger(__name__)
 
 class JobDataService:
     def __init__(self, data_path: str):

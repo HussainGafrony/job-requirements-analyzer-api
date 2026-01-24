@@ -1,48 +1,28 @@
-from fastapi import FastAPI, Request
-from fastapi.responses import JSONResponse
+from fastapi import FastAPI
 from app.api.v1.jobs_api import router as jobs_router
-from app.core.exceptions import AppError
-from app.core.logger import logger
+from app.core.exceptions import *
+from app.core.logger import get_logger
 from app.services.analyzer_services import *
+from contextlib import asynccontextmanager
 
-app = FastAPI(title="Job Requirements Analyzer API")
+logger = get_logger(__name__)
 
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    logger.info("Starting Job Analyzer API...")
+    yield
+    logger.info("Shutting down Job Analyzer API...")
 
-@app.exception_handler(AppError)
-async def global_exception_handler(request: Request, exc: AppError):
-
-    error_details = {
-        "success": False,
-        "error_info": {
-            "message": exc.message,
-            "status": exc.status_code,
-            "path": str(request.url),
-            "method": request.method,
-            "client": request.client.host
-        }
-
-    }
-
-    return JSONResponse(status_code=exc.status_code, content=error_details)
-
-
-@app.middleware("http")
-async def log_requests(request: Request, call_next):
-    logger.info(f"Incoming request: {request.method} {request.url.path}")
-
-    response = await call_next(request)
-
-    logger.info(
-        f"Completed request: {request.method} {request.url.path} "
-        f"Status: {response.status_code}"
-    )
-
-    return response
-
+app = FastAPI(title="Job Requirements Analyzer API", lifespan=lifespan)
+# App Error
+app.add_exception_handler(AppError, universal_exception_handler)
+# Schema/Validation
+app.add_exception_handler(RequestValidationError, universal_exception_handler)
+# System Error
+app.add_exception_handler(Exception, universal_exception_handler)
+#router
 app.include_router(jobs_router, prefix="/api/v1")
+@app.get("/")
+async def root():
+    return {"message:":"Welcome to Job Requirements Analyzer API"}
 
-
-# service = JobDataService("app/data/jobs_data.json")
-# jobs = service.filter_jobs("Backend Developer", "Germany")
-# result = service.analyze_skills(jobs)
-# print(result)

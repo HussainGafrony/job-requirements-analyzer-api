@@ -1,6 +1,10 @@
 from typing import List, ClassVar
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
+from app.core.exceptions import AppError
+from app.core.logger import get_logger
+
+logger = get_logger(__name__)
 
 class JobRequest(BaseModel):
     job_title: str = Field(..., min_length=5,
@@ -16,8 +20,9 @@ class JobRequest(BaseModel):
     @classmethod
     def validate_job_title(cls, value: str) -> str:
         words = set(value.lower().split())
+        # isdisjoint => compare between two group
         if not words.isdisjoint(cls.FORBIDDEN_WORDS):
-            raise ValueError(f"Job title contains forbidden words.")
+            raise AppError(f"Job title contains forbidden words.",status_code=422)
         return value
 
     @field_validator('country')
@@ -25,8 +30,8 @@ class JobRequest(BaseModel):
     def validate_country(cls, value: str) -> str:
         # allow spaces
         if not all(char.isalpha() or char.isspace() for char in value):
-            raise ValueError(
-                "Country must contain only alphabetic characters.")
+            raise AppError(
+                "Country must contain only alphabetic characters.",status_code=422)
         return value
 
 class Skill(BaseModel):

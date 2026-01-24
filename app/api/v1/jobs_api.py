@@ -1,7 +1,8 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter
 from app.schemas.job_schema import JobRequest, JobResponse
 from app.services.analyzer_services import *
 
+logger = get_logger(__name__)
 router = APIRouter(prefix="/jobs", tags=["Jobs"])
 
 job_Data_Service = JobDataService("./app/data/jobs_data.json")
