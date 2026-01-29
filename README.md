@@ -19,9 +19,9 @@ It provides structured insights such as required skills, experience level, and r
 ## Project Structure
 app/
 ├── api/
+├── data/
 ├── schemas/
 ├── services/
-├── core/
 └── main.py
 
 

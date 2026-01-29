@@ -16,7 +16,7 @@ class JobDataService:
         except FileNotFoundError:
             raise AppError("Data source is missing", status_code=404)
         except json.JSONDecodeError:
-            raise AppError('Data source is corrupted', status_code=404)
+            raise AppError('Data source is corrupted', status_code=500)
 
     def filter_jobs(self, job_title: str, country: str):
 

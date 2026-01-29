@@ -7,6 +7,7 @@ from contextlib import asynccontextmanager
 
 logger = get_logger(__name__)
 
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     logger.info("Starting Job Analyzer API...")
@@ -20,9 +21,10 @@ app.add_exception_handler(AppError, universal_exception_handler)
 app.add_exception_handler(RequestValidationError, universal_exception_handler)
 # System Error
 app.add_exception_handler(Exception, universal_exception_handler)
-#router
+# router
 app.include_router(jobs_router, prefix="/api/v1")
+
+
 @app.get("/")
 async def root():
-    return {"message:":"Welcome to Job Requirements Analyzer API"}
-
+    return {"message:": "Welcome to Job Requirements Analyzer API"}
