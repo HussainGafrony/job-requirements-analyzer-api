@@ -42,17 +42,17 @@ POST /api/v1/jobs/analyze
 
 # Example Response
 {
-  "job_title": "Backend Developer",
-  "country": "Germany",
-  "skills": [
-    {
-      "name": "Java",
-      "priority": 1,
-      "reason": "Most common requirement"
-    }
-  ],
-  "experience_level": "Entry"
-}
+    "job_title": "Frontend Developer",
+    "city": "Sydney",
+    "country": "Germany",
+    "skills": [
+      "TypeScript",
+      "React",
+      "SQL",
+      "AWS"
+    ],
+    "experience_level": "Mid"
+  },
 
 Notes
 
